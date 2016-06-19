@@ -10,7 +10,7 @@ import render.GameCanvas;
 
 public class ExitScreen extends GAstate {
 
-	String msg = "Player " + K4game.who + " wins";
+	String msg = "Player " + who + " wins";
 	
 	public ExitScreen(GSM gsm) {
 		super(gsm);
